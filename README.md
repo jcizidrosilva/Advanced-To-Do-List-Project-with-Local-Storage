@@ -20,4 +20,4 @@ This to-do list project reflects my journey as a student developer, where learni
 
 <img src="./img/1.png" alt="bg">
 
-<h3><a href="#" target="_blank">Explore our Project</a></h3>
+<h3><a href="https://jcizidrosilva.github.io/Advanced-To-Do-List-Project-with-Local-Storage/" target="_blank">Explore our Project</a></h3>
