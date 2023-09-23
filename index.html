@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo Avançado</title>
+    <title>Advanced To-Do List</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link
       rel="stylesheet"
@@ -18,15 +18,15 @@
   <body>
     <div class="todo-container">
       <header>
-        <h1>Todo Avançado</h1>
+        <h1>Advanced To-Do List</h1>
       </header>
       <form id="todo-form">
-        <p>Adicione sua tarefa</p>
+        <p>Add a new task</p>
         <div class="form-control">
           <input
             type="text"
             id="todo-input"
-            placeholder="O que você vai fazer?"
+            placeholder="Your next task...?"
           />
           <button type="submit">
             <i class="fa-thin fa-plus"></i>
@@ -34,31 +34,31 @@
         </div>
       </form>
       <form id="edit-form" class="hide">
-        <p>Edite sua tarefa</p>
+        <p>Edit your task</p>
         <div class="form-control">
           <input type="text" id="edit-input" />
           <button type="submit">
             <i class="fa-solid fa-check-double"></i>
           </button>
         </div>
-        <button id="cancel-edit-btn">Cancelar</button>
+        <button id="cancel-edit-btn">Cancel</button>
       </form>
       <div id="toolbar">
         <div id="search">
-          <h4>Pesquisar:</h4>
+          <h4>Search:</h4>
           <form>
-            <input type="text" id="search-input" placeholder="Buscar..." />
+            <input type="text" id="search-input" placeholder="Enter your search..." />
             <button id="erase-button">
               <i class="fa-solid fa-delete-left"></i>
             </button>
           </form>
         </div>
         <div id="filter">
-          <h4>Filtrar:</h4>
+          <h4>Filter:</h4>
           <select id="filter-select">
-            <option value="all">Todos</option>
-            <option value="done">Feitos</option>
-            <option value="todo">A fazer</option>
+            <option value="all">All Tasks</option>
+            <option value="done">Completed Tasks</option>
+            <option value="todo">Open Tasks</option>
           </select>
         </div>
       </div>
